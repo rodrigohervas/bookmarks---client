@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "rodrigos-bookmark-app", 
+  "alias": "bookmarksrh", 
   "name": "bookmarks-app",
   "routes": [
       { "handle": "filesystem" },
