@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { Route, Switch, useParams, useHistory } from 'react-router-dom';
+import { Route, Switch, useHistory } from 'react-router-dom';
 import Nav from './Nav/Nav';
 import config from './config';
 import './App.css';
 import AddBookmark from './AddBookmark/AddBookmark';
 import BookmarkList from './BookmarkList/BookmarkList';
 import UpdateBookmark from './UpdateBookmark/UpdateBookmark'
-import { checkPropTypes } from 'prop-types';
+
 require('dotenv').config()
 
 function App() {
   const [bookmarks, setBookmarks] = useState([])
   const [error, setError] = useState()
 
-  const params = useParams()
   const history = useHistory()
   
   useEffect( () => {
