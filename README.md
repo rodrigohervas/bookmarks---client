@@ -28,6 +28,3 @@ Start the application `npm start`
 ## Live Site
 
 https://bookmarksrh.now.sh/
-
-
-
